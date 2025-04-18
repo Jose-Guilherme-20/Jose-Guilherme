@@ -1,0 +1,24 @@
+#tools {
+  background-color: black;
+  color: white;
+}
+.card-compact {
+  width: 9rem;
+  height: 9rem;
+}
+
+.card-compact .card-body {
+  padding: 0.5rem;
+}
+
+.card-compact h5 {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-compact p {
+  font-size: 0.75rem;
+}
+img {
+  width: 2vw;
+}

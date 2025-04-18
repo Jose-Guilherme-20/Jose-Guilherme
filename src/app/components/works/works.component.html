@@ -1,0 +1,22 @@
+<section id="works">
+  <div class="container d-flex flex-column" style="max-width: 1200px">
+    <div style="width: 100%">
+      <h3 class="mt-5 mb-5 ms-5 text-center">Experiência de trabalho</h3>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="work__content" *ngFor="let work of works">
+        <div class="logo-wrapper">
+          <img [src]="work.logo" alt="Logo" class="company-icon" />
+        </div>
+        <div class="work-details">
+          <h4>{{ work.title }}</h4>
+          <p>{{ work.desc }}</p>
+          <p>{{ work.period }}</p>
+          <div class="tool-list d-flex flex-wrap justify-content-center">
+            <span class="tag" *ngFor="let tool of work.tools">{{ tool }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

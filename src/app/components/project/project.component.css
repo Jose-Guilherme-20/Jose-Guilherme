@@ -1,0 +1,15 @@
+.container-projects {
+  background-color: black;
+  color: white;
+}
+.projects-title {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0;
+}
+img {
+  margin: 10px auto 0 auto;
+  width: 80%;
+  height: 60%;
+  display: block;
+}

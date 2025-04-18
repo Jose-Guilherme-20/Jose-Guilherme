@@ -1,0 +1,11 @@
+.pointer-link {
+  cursor: pointer;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  color: #ccc; /* se quiser mudar ao passar o mouse */
+}

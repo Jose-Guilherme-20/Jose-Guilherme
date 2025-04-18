@@ -1,0 +1,64 @@
+#works {
+  width: 100%;
+  background-color: #9f73c4;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.work__content {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  gap: 20px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 24px;
+}
+
+.logo-wrapper {
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.company-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.work-details h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.work-details p {
+  margin: 4px 0;
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
